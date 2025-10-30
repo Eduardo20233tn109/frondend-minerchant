@@ -14,7 +14,7 @@ function ProveedorScreen({ navigation }) {
     <View style={styles.container}>
       {/* Encabezado */}
       <View style={styles.header}>
-        <Text style={styles.welcomeText}>¡Bienvenido proveedor!</Text>
+        <View> <Text style={styles.welcomeText}>¡Bienvenido proveedor!</Text></View>
         <TouchableOpacity style={styles.profileIcon}>
           <Feather name="user" size={34} color="#fff" />
         </TouchableOpacity>
