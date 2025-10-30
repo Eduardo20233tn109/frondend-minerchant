@@ -10,6 +10,7 @@ import RegistroUsuarioScreen from '../screens/RegistroUsuarioScreen';
 import ProveedorScreen from '../screens/ProveedorScreen';
 import RolComercianteScreen from '../screens/RolComercianteScreen';
 import SolicitudPrestamoScreen from '../screens/SolicitudPrestamoScreen';
+import RegistroProveedorScreen from '../screens/RegistroProveedorScreen';
 
 // Importar las pantallas adicionales del proveedor
 import ClientesScreen from '../screens/ClientesScreen';
@@ -25,6 +26,7 @@ function AppNavigator() {
         <Stack.Screen name="Splash" component={SplashScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="RegistroUsuario" component={RegistroUsuarioScreen} />
+        <Stack.Screen name="RegistroProveedor" component={RegistroProveedorScreen} />
         
         {/* ProveedorScreen con navegación personalizada */}
         <Stack.Screen

@@ -113,8 +113,11 @@ function RegistroUsuarioScreen({ navigation }) {
             </TouchableOpacity>
           </LinearGradient>
         </View>
-        <TouchableOpacity onPress={() => navigation.navigate('Login')} style={{marginTop:24}}>
+        <TouchableOpacity onPress={() => navigation.navigate('Login')} style={{marginTop:14}}>
           <Text style={styles.loginLink}>¿Ya tienes cuenta? <Text style={{textDecorationLine:'underline'}}>Iniciar sesión</Text></Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('RegistroProveedor')} style={{marginTop:8}}>
+          <Text style={[styles.loginLink, {color:'#0043A7', fontWeight:'bold'}]}>¿Eres proveedor? ¡Regístrate aquí!</Text>
         </TouchableOpacity>
       </ScrollView>
     </LinearGradient>
